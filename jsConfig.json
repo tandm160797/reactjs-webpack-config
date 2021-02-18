@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "$hooks/*": [
+        "src/hooks/*"
+      ],
+      "$theme/*": [
+        "src/common/theme/*"
+      ],
+      "$components/*": [
+        "src/components/*"
+      ],
+      "$redux-toolkit/*": [
+        "src/redux-toolkit/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
